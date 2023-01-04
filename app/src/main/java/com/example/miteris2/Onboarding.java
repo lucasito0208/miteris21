@@ -1,13 +1,12 @@
-package com.example.miteris21;
+package com.example.miteris2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class Onboarding extends AppCompatActivity {
 
     Button bt1;
 
@@ -20,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
         bt1.setOnClickListener(view ->  {
 
-                Intent intent = new Intent(getApplicationContext(), Registro.class);
-                startActivity(intent);
+            Intent intent = new Intent(Onboarding.this, Registro.class);
+            startActivity(intent);
 
         });
 

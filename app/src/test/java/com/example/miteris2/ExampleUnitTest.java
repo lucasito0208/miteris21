@@ -1,4 +1,4 @@
-package com.example.miteris21;
+package com.example.miteris2;
 
 import org.junit.Test;
 

@@ -58,27 +58,40 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="email"
-            android:textSize="35dp"/>
+            android:textSize="25dp"/>
 
         <TextView
             android:id="@+id/tv_modalidad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="modalidad"
-            android:textSize="35dp"/>
+            android:textSize="20dp"/>
     </LinearLayout>
 
 
     <Button
-        android:id="@+id/btnfin"
-        android:layout_width="match_parent"
+        android:id="@+id/btnatras"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        android:text="Atras"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout4"
+        android:layout_marginTop="125dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btncontinuar"
+        />
+
+
+
+    <Button
+        android:id="@+id/btncontinuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continuar"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout4"
+        android:layout_marginTop="125dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:text="FIN"
-        android:textSize="20dp"
+        android:layout_marginLeft="150dp"
         />
 
 

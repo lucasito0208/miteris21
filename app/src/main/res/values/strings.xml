@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">miteris2.1</string>
+    <string name="app_name">miteris2</string>
+    <string name="select_mod">Selecciones una modalidad</string>
+    <string name="mapa">Mapa</string>
+    <string name="web">Web</string>
+    <string name="cerrar">Cerrar</string>
 </resources>
